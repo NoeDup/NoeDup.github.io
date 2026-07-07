@@ -18,7 +18,7 @@
       }
 
       html {
-        color-scheme: light dark;
+        color-scheme: dark;
         font-family: "Arial", sans serif;
       }
 
@@ -39,14 +39,13 @@
       }
     </style>
     <style>
-      /* Theme */
       :root {
         /* Customize these variables to tweak colors. */
-        --color-paper: light-dark(#efefef, #161616);
-        --color-backdrop: light-dark(#7a7979, black);
-        --color-highlight: light-dark(midnightblue, #ddb22b);
-        --color-text-primary: light-dark(black, #dddddd);
-        --color-text-secondary: light-dark(#333, #aaaaaa);
+        --color-paper: #161616;
+        --color-backdrop: black;
+        --color-highlight: #ddb22b;
+        --color-text-primary: #aaaaaa;
+        --color-text-secondary: #dddddd;
       }
 
       body {
@@ -99,6 +98,7 @@
       }
 
       h3 {
+        color: var(--color-highlight);
         font-size: 1rem;
         font-weight: bold;
 
@@ -110,7 +110,7 @@
       }
 
       h4 {
-        font-size: 0.75rem;
+        font-size: 1rem;
         font-style: italic;
         color: var(--color-text-secondary);
       }
@@ -123,10 +123,7 @@
         padding-left: 0.5rem;
       }
 
-      li::marker {
-        content: "•";
-      }
-
+      
       header {
         display: flex;
         gap: 1rem;
@@ -164,114 +161,100 @@
          <h2>En deux (cent) mots</h2>
           <li>
               Après des études en Lettres, et une thèse en Histoire de l'Art de la période moderne, Noémi s'est orientée vers la gestion des données de recherche. Elle travaille actuellement pour l'Université de Genève afin de soutenir les collaborateurs-trices dans la gestion et l'ouverture de leurs données. En parallèle, elle occupe bénévolement le poste de conservatrice du Musée Rousseau à Môtiers.
-
-              Vraiment trop chouette!
             </li>
          <h2>Expérience professionnelle</h2>
         <section>
-          <h3>Monsters Inc. <time>Jan 2021 - Present</time></h3>
-          <h4>Senior Data Systems Analyst</h4>
+          <h3>Université de Genève</h3><br>
+          <h4>Responsable du plan d’action Data Stewardship, Division de l'Information Scientifique. <time>05.2024 - Present</time></h4>
           <ul>
             <li>
-              Designed and optimized scream-to-energy conversion analytics,
-              improving operational efficiency by 37%.
-            </li>
-            <li>
-              Led cross-dimensional data integration project to transition from
-              scream-based to laugh-based energy models.
-            </li>
-            <li>
-              Collaborated with the R&D team to implement emotion-sensitive IoT
-              sensors across the facility, enhancing data collection accuracy.
-            </li>
+              Chargée de projet, coordination des services centraux liés à la gestion des données de recherche et des travaux de groupes, établissement d’un mapping des fonctions et des compétences disponibles à l’UNIGE, analyser les besoins des chercheurs.
+            </li><br>
           </ul>
+          <h4>Assistante de Direction, Rectorat. <time>07.2023 - 09.2024</time></h4>
+          <ul>
+            <li>
+              Suivi de projets, établir des synthèses à partir de documents, transmission et coordination des informations avec les partenaires internes et externes, prise de PVs, gestion des activités administratives du recteur, organisation de séances et d’évènements, gestion du secrétariat du recteur, suivi comptable, accueil des visiteurs.
+            </li><br>
+          </ul>
+          <h4>Conseillère, Rectorat. <time>10.2023 - 03.2024</time></h4>
+          <ul>
+            <li>
+              Préparation et gestion des dossiers spécifiques de type académique, recherche documentaire, benchmarking, rédaction de propositions de procédures, suivi des dossiers, propositions de réflexions sur des sujets académiques, vision transversale sur les dossiers, interface entre le rectorat et les interlocuteurs internes et externes, coordination et transmission des informations.
+            </li><br>
+          </ul>
+          <h4>Commise administrative 4. Faculté des Lettres. <time>02.2023 - 08.2023</time></h4>
+          <ul>
+            <li>
+              Gestion des salles de la Faculté des Lettres, attribution de salles pour les enseignements réguliers (programme des cours) et les évènements exceptionnels, recherche de solutions, liaison avec les services centraux.
+            </li><br>
+          </ul>
+          <h4>Assistante diplômée en Histoire de l’art de la période moderne. Faculté des Lettres. <time>09.2015 - 01.2023</time></h4>
+          <ul>
+            <li>
+              Enseignement, gestion de projet, recherche de fonds, élaboration de séminaires thématiques inédits, recherche scientifique, organisation d’évènements académiques et grand public, organisation de voyages d’études, direction de travaux d’étudiants, élaboration et correction d’examens, suivi des étudiants.
+            </li><br>
+          </ul>
+         <h3>Association Art en Vieille Ville, Genève</h3>
+          <h4>Guide-conférencière. <time>09.2022 - 05.2026 (sur appel)</time></h4><br>
+          <ul>
+            <li>
+              Visites guidées des galeries d’art de Genève (expositions temporaires et permanentes, discussions avec les galeristes et les artistes).
+            </li><br>
+          </ul> 
+          <h3>Galerie Grand Rue, Genève</h3>
+          <h4>Accueil et vente. <time>09.2022 - 01.2024 (sur appel)</time></h4><br>
+          <ul>
+            <li>
+              Dépouillement des catalogues de vente, accueil et vente auprès de clients.
+            </li><br>
+          </ul> 
+           <h3>Université Paris-Nanterre, Nanterre</h3>
+          <h4>Chargée de travaux dirigés. <time>01.2019 - 05.2019</time></h4><br>
+          <ul>
+            <li>
+              Enseignement, élaboration et correction d’examens, suivi des étudiants.
+            </li><br>
+          </ul>
+          <h3>Étude Reymond, Ulmann & Fischele, Genève</h3>
+          <h4>Assistante administrative et comptable. <time>08.2010 - 08.2015</time></h4><br>
+          <ul>
+            <li>
+              Gestion de la facturation, secrétariat, classement des dossiers, réception des clients, gestion du courrier entrant et sortant, élaboration de chargés de pièces.
+            </li><br>
+          </ul>
+          <h3>Ateliers d'etchnomusicologie, Genève</h3>
+          <h4>Assistante administrative et comptable. <time>09.2011 - 03.2012</time></h4><br>
+          <ul>
+            <li>
+              Rappels des cotisations, petit secrétariat.
+            </li><br>
+          </ul> 
         </section>
+        <h2>Bénévolat</h2>
         <section>
-          <h3>Baymax Logic <time>Jun 2018 - Dec 2020</time></h3>
-          <h4>AI Wellness Architect</h4>
+        <h3>Musée Rousseau de Môtiers <time>09.2023 - Présent</time></h3>
+          <h4>Conservatrice</h4>
           <ul>
             <li>
-              Developed empathetic AI algorithms for personalized healthcare
-              companions based on neural emotional mapping.
+              Gestion et maintenance de l’espace Rousseau, conservation et valorisation des fonds patrimoniaux, gestion des prêts, organisation des fonds, encadrement des visiteurs, gestion de la communication et de l’administration, animation du musée, conception d’expositions, collaboration avec les institutions partenaires.
             </li>
-            <li>
-              Decreased system error rates by 45% through human-centered testing
-              protocols and reinforcement learning.
-            </li>
-            <li>
-              Led a digital health initiative that served over 500,000 users in
-              the Asia-Pacific region.
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>Black Mesa Innovations <time>Jul 2015 - May 2018</time></h3>
-          <h4>Lead Innovation Engineer</h4>
-          <ul>
-            <li>
-              Directed quantum research initiatives focused on interdimensional
-              transport and anomalous material testing.
-            </li>
-            <li>
-              Spearheaded ethical compliance task force post-Containment Breach
-              Procotol review.
-            </li>
-            <li>
-              Authored key internal white papers on teleportation safety
-              frameworks and AI-enhanced hazard detection.
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>Zootopia Global Consulting <time>Aug 2012 - Jun 2015</time></h3>
-          <h4>Strategy & Operations Consultant</h4>
-          <ul>
-            <li>
-              Advised diverse municipal clients on smart city infrastructure,
-              traffic flow optimization, and species-inclusive design.
-            </li>
-            <li>
-              Managed inter-species mediation technology rollout, increasing
-              public approval ratings by 62%.
-            </li>
-            <li>
-              Conducted cultural intelligence seminars for leadership teams
-              across 15+ territories.
-            </li>
-          </ul>
         </section>
       </section>
       <section>
-        <h2>Volunteering & Community</h2>
+        <h2>Stages</h2>
         <section>
-          <h3>Voices of Tomorrow Foundation <time>Mar 2019 - Present</time></h3>
-          <h4>Community Speaker, Event Organizer</h4>
+          <h3>Wallace Collection, Londres. <time>02-06.2014</time></h3>
           <ul>
             <li>
-              Led workshops and panels across major cities (and select
-              interdimensional hubs) on inclusive software design and empathetic
-              AI systems.
-            </li>
-            <li>
-              Organized the annual TechKind Summit, attracting 3,000+ attendees
-              focused on compassionate computing and responsive innovation.
-            </li>
-            <li>
-              Mentored young developers from underrepresented species and
-              regions through storytelling-based code education.
+              Recherches préliminaires dans le cadre de projets d’expositions. Rédaction de notices de catalogue.
             </li>
           </ul>
         </section>
         <section>
-          <h3>Open-source Software Contribution</h3>
-          <ul>
-            <li>Contributed to the development of BigHeroScript.</li>
-            <li>
-              Participated in a civic tech project to address species-inclusive
-              urban planning in the Zootopia metropolitan area. Built the zoning
-              visualization tool and mobility accessibility widget.
-            </li>
-          </ul>
+          <h3>Bureau des soumissions d’architecture de la Ville de Genève. <time>07.2009</time></h3>
+          <h3>Éditions du Tricorne, Genève.<time>07-10.2008</time></h3>
+          <h3>Cabinet des Dessins, Musée d’Art et d’Histoire de Genève.<time>07.2007</time></h3>
         </section>
       </section>
       <section class="nobreak">
